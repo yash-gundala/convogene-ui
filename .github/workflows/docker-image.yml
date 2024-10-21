@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - test  # Replace with your main branch name
+      - test 
 
 jobs:
   build-and-push:
@@ -25,7 +25,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/convogene-ui:v1  # Replace with your Docker Hub username and image name
-
-      - name: Logout of Docker Hub
-        uses: docker/logout-action@v3
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/convogene-ui:v1
