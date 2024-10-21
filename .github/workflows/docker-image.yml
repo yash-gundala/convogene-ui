@@ -22,9 +22,9 @@ jobs:
       - name: Build the Docker image
         uses: docker/build-push-action@v3
         with:
-          context: .  # Use the current directory as build context
-          file: Dockerfile  # Specify the Dockerfile
-          push: true  # Push the image to Docker Hub
+          context: .
+          file: Dockerfile
+          push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/convogene-ui:v1  # Replace with your Docker Hub username and image name
 
       - name: Logout of Docker Hub
