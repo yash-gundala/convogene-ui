@@ -25,4 +25,4 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/convogene-ui:v1
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/convogene-newui:v1
