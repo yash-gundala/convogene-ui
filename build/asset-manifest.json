@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.12b11037.css",
-    "main.js": "/static/js/main.1b76cf44.js",
+    "main.js": "/static/js/main.9bdf3ea6.js",
     "static/js/845.921a663c.chunk.js": "/static/js/845.921a663c.chunk.js",
     "static/media/infobellLogo.png": "/static/media/infobellLogo.555f0ae5714c231710e8.png",
     "static/media/stop-button.png": "/static/media/stop-button.81b571b204f41f93242a.png",
@@ -12,11 +12,11 @@
     "static/media/yi.svg": "/static/media/yi.bb66c8786a284e1388f3a00abe4a5f63.svg",
     "index.html": "/index.html",
     "main.12b11037.css.map": "/static/css/main.12b11037.css.map",
-    "main.1b76cf44.js.map": "/static/js/main.1b76cf44.js.map",
+    "main.9bdf3ea6.js.map": "/static/js/main.9bdf3ea6.js.map",
     "845.921a663c.chunk.js.map": "/static/js/845.921a663c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.12b11037.css",
-    "static/js/main.1b76cf44.js"
+    "static/js/main.9bdf3ea6.js"
   ]
 }
